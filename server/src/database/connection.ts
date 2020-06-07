@@ -1,3 +1,4 @@
+// Creates the connection to the database
 import knex from 'knex';
 import path from 'path';
 

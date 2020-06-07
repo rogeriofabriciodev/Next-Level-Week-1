@@ -6,7 +6,8 @@ import multerConfig from './config/multer';
 import PointsController from './controllers/PointsController';
 import ItemsController from './controllers/ItemsController';
 
-import { celebrate, Joi } from "celebrate";
+// Is an express middleware function that wraps the joi validation library
+import { celebrate, Joi } from "celebrate"; 
 
 const routes = express.Router();
 const upload = multer(multerConfig);

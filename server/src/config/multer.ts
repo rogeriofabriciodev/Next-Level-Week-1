@@ -1,3 +1,4 @@
+// middleware for handling multipart/form-data , which is primarily used for uploading files
 import multer from "multer";
 import path from "path";
 import crypto from "crypto";

@@ -1,3 +1,4 @@
+// Creates the database table
 import Knex from 'knex';
 
 export async function up(knex: Knex) {
